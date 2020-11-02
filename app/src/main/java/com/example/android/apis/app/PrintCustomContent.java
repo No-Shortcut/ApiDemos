@@ -83,8 +83,6 @@ public class PrintCustomContent extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String s;
-        s.equalsIgnoreCase()
         setListAdapter(new MotoGpStatAdapter(loadMotoGpStats(),
                 getLayoutInflater()));
     }
